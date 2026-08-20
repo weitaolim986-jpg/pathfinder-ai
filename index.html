@@ -1,0 +1,747 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Uni Pathway Coach Knowledge Hub | NUS Programmes</title>
+  <meta name="description" content="Curated knowledge hub for Uni Pathway Coach covering NUS Biomedical Engineering, Data Science and Analytics, and Business Analytics." />
+  <style>
+    :root{
+      --blue:#003d7c;
+      --orange:#ef7c00;
+      --bg:#f6f8fb;
+      --card:#ffffff;
+      --text:#1f2937;
+      --muted:#667085;
+      --line:#d9e2ef;
+      --soft-blue:#eef6ff;
+      --soft-orange:#fff4e8;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter,Segoe UI,Arial,sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.62;
+    }
+    header{
+      background:linear-gradient(135deg,var(--blue),#075ca8);
+      color:#fff;
+      padding:42px 24px;
+    }
+    .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+    header h1{margin:0 0 8px;font-size:34px;line-height:1.15}
+    header p{margin:0;color:#dbeafe;max-width:850px}
+    nav{
+      background:#fff;
+      border-bottom:1px solid var(--line);
+      position:sticky;
+      top:0;
+      z-index:5;
+    }
+    nav .wrap{display:flex;gap:10px;flex-wrap:wrap;padding-top:12px;padding-bottom:12px}
+    nav a{
+      text-decoration:none;
+      color:var(--blue);
+      border:1px solid #c8dcff;
+      background:#f7fbff;
+      border-radius:999px;
+      padding:7px 12px;
+      font-size:13px;
+      font-weight:700;
+    }
+    main{padding:28px 0 60px}
+    section{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:26px;
+      margin:18px 0;
+      box-shadow:0 6px 18px rgba(16,24,40,.05);
+    }
+    h2{color:var(--blue);font-size:28px;margin:0 0 12px;border-bottom:1px solid var(--line);padding-bottom:10px}
+    h3{color:#243b53;margin-top:24px;margin-bottom:8px}
+    h4{margin-bottom:6px;color:#344054}
+    .notice{
+      border-left:5px solid var(--orange);
+      background:var(--soft-orange);
+      padding:14px 16px;
+      border-radius:12px;
+      color:#6b3a00;
+      margin:14px 0;
+    }
+    .info{
+      border-left:5px solid var(--blue);
+      background:var(--soft-blue);
+      padding:14px 16px;
+      border-radius:12px;
+      color:#0f3c68;
+      margin:14px 0;
+    }
+    ul{padding-left:23px}
+    li{margin:5px 0}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .box{border:1px solid var(--line);background:#fbfcff;border-radius:14px;padding:14px}
+    .tag{display:inline-block;background:#eaf2ff;color:#174a7c;border:1px solid #c8dcff;border-radius:999px;padding:4px 9px;font-size:12px;font-weight:800;margin:3px 4px 3px 0}
+    table{width:100%;border-collapse:collapse;margin:12px 0;font-size:14px}
+    th,td{border:1px solid var(--line);padding:10px;vertical-align:top;text-align:left}
+    th{background:#f7f9fc;color:#344054}
+    .source-list a{color:var(--blue);font-weight:700}
+    .placeholder{color:#9a3412;font-weight:700}
+    footer{color:var(--muted);font-size:13px;text-align:center;padding:30px}
+    @media(max-width:850px){.grid{grid-template-columns:1fr}header h1{font-size:28px}section{padding:20px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>Uni Pathway Coach Knowledge Hub</h1>
+      <p>NUS Programme Knowledge Base for Biomedical Engineering, Data Science and Analytics, and Business Analytics. This page is designed as a flat, structured source for a Copilot Studio agent.</p>
+    </div>
+  </header>
+
+  <nav>
+    <div class="wrap">
+      <a href="#overview">Overview</a>
+      <a href="#bme">Biomedical Engineering</a>
+      <a href="#dsa">Data Science & Analytics</a>
+      <a href="#ba">Business Analytics</a>
+      <a href="#comparison">Comparison</a>
+      <a href="#learning-resources">Learning Resources</a>
+      <a href="#application">Application Guidance</a>
+      <a href="#update-log">Update Log</a>
+    </div>
+  </nav>
+
+  <main class="wrap">
+    <section id="overview">
+      <h2>Overview</h2>
+      <p><strong>Purpose:</strong> This knowledge hub provides curated, student-friendly summaries of selected NUS programmes for use by the Uni Pathway Coach agent. It helps pre-university students understand programme fit, academic readiness, skill gaps, career pathways, application positioning, and reliable official sources.</p>
+      <div class="notice">
+        <strong>Important:</strong> This page is a guidance summary, not an official admissions source. Admissions requirements, fees, deadlines, scholarships, and programme structures may change. Students should always verify details on official NUS admissions and programme pages.
+      </div>
+      <p><strong>Last checked:</strong> <span class="placeholder">13 June 2026</span></p>
+      <p><strong>How the agent should use this page:</strong> Use this knowledge hub for general programme guidance, but direct students to official NUS sources for final verification. Avoid guaranteeing admissions. If information is missing, state what should be checked and where.</p>
+    </section>
+
+    <section id="bme">
+      <h2>Programme: Biomedical Engineering</h2>
+      <h3>Official sources</h3>
+      <ul class="source-list">
+        <li>Official programme page: <a href="https://cde.nus.edu.sg/bme/undergraduate/what-is-bme/">[official NUS Biomedical Engineering programme URL]</a></li>
+        <li>Official admissions requirements page: <a href="https://www.nus.edu.sg/oam/admissions/singapore-cambridge-gce-a-level/">[official NUS admissions requirements URL]</a></li>
+        <li>Official curriculum / study plan page: <a href="https://cde.nus.edu.sg/bme/wp-content/uploads/sites/8/2026/01/BME_Degree-Requirements-2021-2022-to-2024-2025.pdf">[curriculum URL]</a></li>
+        <li>Official scholarships / financial aid page: <a href="https://www.nus.edu.sg/oam/docs/default-source/nus-publications/scholarshipfinancialaid.pdf">[scholarship URL]</a></li>
+        <li>Official programme brochure: <a href="https://cde.nus.edu.sg/bme/wp-content/uploads/sites/8/2019/02/Biomedical_indiv.pdf">[brochure URL]</a></li>
+      </ul>
+
+      <h3>Quick student-friendly summary</h3>
+      <p>Biomedical Engineering combines engineering, biology, healthcare, medical technology, and design. Students learn how to apply engineering principles to health-related problems, such as medical devices, diagnostics, rehabilitation technology, biomaterials, and healthcare systems.</p>
+      <p>This programme may suit students who enjoy both science and practical problem-solving, especially those interested in improving healthcare through technology.</p>
+
+      <h3>What students typically study</h3>
+      <ul>
+        <li>Engineering mathematics</li>
+        <li>Physics and mechanics</li>
+        <li>Biology or human physiology</li>
+        <li>Biomedical instrumentation</li>
+        <li>Medical devices</li>
+        <li>Biomechanics</li>
+        <li>Biomaterials</li>
+        <li>Design projects</li>
+        <li>Data analysis or modelling for healthcare</li>
+        <li>Engineering ethics and safety</li>
+      </ul>
+      <p><strong>Note:</strong> Exact modules and curriculum structure should be verified on the official programme page.</p>
+
+      <h3>Good fit for students who</h3>
+      <ul>
+        <li>Like biology, physics, mathematics, and design</li>
+        <li>Enjoy solving real-world healthcare problems</li>
+        <li>Are interested in medical devices, health technology, or rehabilitation</li>
+        <li>Like hands-on projects and engineering design</li>
+        <li>Are comfortable building both technical and scientific foundations</li>
+        <li>Want a pathway that connects engineering with healthcare</li>
+      </ul>
+
+      <h3>Less suitable for students who</h3>
+      <ul>
+        <li>Strongly dislike mathematics or physics</li>
+        <li>Prefer purely biological study without engineering mechanics</li>
+        <li>Want direct clinical practice as a doctor, nurse, or dentist</li>
+        <li>Prefer business, policy, or humanities-focused work</li>
+        <li>Do not enjoy technical design or problem-solving</li>
+      </ul>
+
+      <h3>Academic readiness signals</h3>
+      <ul>
+        <li>Good foundation in mathematics</li>
+        <li>Good foundation in physics</li>
+        <li>Interest in biology or health sciences</li>
+        <li>Experience with design, research, coding, robotics, or science projects</li>
+        <li>Ability to handle interdisciplinary learning</li>
+      </ul>
+      <p><strong>Possible useful school subjects:</strong></p>
+      <ul>
+        <li>A-Level / JC: H2 Mathematics, Physics, Biology, Chemistry</li>
+        <li>IB: Mathematics HL/SL, Physics, Biology, Chemistry</li>
+        <li>Polytechnic: Engineering, biomedical science, life sciences, health technology, applied science-related diplomas</li>
+      </ul>
+      <p><strong>Prerequisite note:</strong> Exact subject requirements depend on NUS admissions rules and should be verified on the official admissions page.</p>
+
+      <h3>Common skill gaps</h3>
+      <ul>
+        <li>Mathematics for engineering analysis</li>
+        <li>Physics for mechanics and systems</li>
+        <li>Programming or data analysis for biomedical modelling</li>
+        <li>Design thinking and prototyping</li>
+        <li>Scientific reading and technical writing</li>
+      </ul>
+
+      <h3>Bridge plan</h3>
+      <p><strong>4–8 week preparation plan:</strong></p>
+      <ul>
+        <li>Weeks 1–2: Revise algebra, calculus basics, and vectors</li>
+        <li>Weeks 3–4: Review mechanics and basic physics concepts</li>
+        <li>Weeks 5–6: Try one simple biomedical-related project</li>
+        <li>Weeks 7–8: Write a short reflection on what the project taught about healthcare, engineering, and design</li>
+      </ul>
+
+      <h3>Try-before-you-choose activities</h3>
+      <ul>
+        <li>Design a simple low-cost assistive device concept and explain the user problem it solves.</li>
+        <li>Analyze a public health or wearable sensor dataset.</li>
+        <li>Research one medical device and explain how engineering improves its design.</li>
+        <li>Build a simple prototype using cardboard, sensors, Arduino, or CAD tools.</li>
+      </ul>
+
+      <h3>Career pathways</h3>
+      <ul>
+        <li>Biomedical engineer</li>
+        <li>Medical device engineer</li>
+        <li>Healthcare technology product specialist</li>
+        <li>Rehabilitation technology developer</li>
+        <li>Research assistant / research scientist</li>
+        <li>Regulatory affairs or quality assurance in medical technology</li>
+        <li>Health technology consulting</li>
+        <li>Graduate studies in biomedical engineering, medicine-related fields, or health technology</li>
+      </ul>
+      <p><strong>Career note:</strong> Biomedical Engineering does not automatically lead to becoming a doctor. Students interested in medicine should verify medical school requirements separately.</p>
+
+      <h3>Application positioning</h3>
+      <p>A strong applicant story may show genuine interest in healthcare problems, technical curiosity, project-based learning, reflection on human impact, and the ability to connect biology, engineering, and design.</p>
+      <p><strong>Useful angles:</strong></p>
+      <ul>
+        <li>“I want to solve healthcare problems through technology.”</li>
+        <li>“I enjoy both biological systems and engineering design.”</li>
+        <li>“A project or experience showed me how technical solutions can improve people’s lives.”</li>
+      </ul>
+
+      <h3>Backup pathways</h3>
+      <ul>
+        <li><strong>Plan A:</strong> Biomedical Engineering</li>
+        <li><strong>Plan B:</strong> Mechanical Engineering / Electrical Engineering with healthcare-related projects</li>
+        <li><strong>Plan C:</strong> Life Sciences / Data Science / Industrial Design with health-tech focus</li>
+        <li><strong>Plan D:</strong> Local undergraduate degree → overseas master’s in biomedical engineering or health technology</li>
+      </ul>
+    </section>
+
+    <section id="dsa">
+      <h2>Programme: Data Science and Analytics</h2>
+      <h3>Official sources</h3>
+      <ul class="source-list">
+        <li>Official programme page: <a href="https://www.stat.nus.edu.sg/education/undergraduate/prospective-student/major-in-data-science-analytics/">[official NUS Data Science and Analytics programme URL]</a></li>
+        <li>Official admissions requirements page: <a href="https://www.nus.edu.sg/oam/admissions/singapore-cambridge-gce-a-level/">[official NUS admissions requirements URL]</a></li>
+        <li>Official curriculum / study plan page: <a href="https://www.stat.nus.edu.sg/wp-content/uploads/sites/8/2026/02/DSAHON-AY22-23-after_updated-Feb-2026.pdf">[curriculum URL if available]</a></li>
+        <li>Official scholarships / financial aid page: <a href="https://www.nus.edu.sg/oam/docs/default-source/nus-publications/scholarshipfinancialaid.pdf">[scholarship URL]</a></li>
+        <li>Official programme brochure: <a href="https://www.stat.nus.edu.sg/wp-content/uploads/sites/8/2023/05/22052023_CHS-DSA-Brochure.pdf">[brochure URL if available]</a></li>
+      </ul>
+
+      <h3>Quick student-friendly summary</h3>
+      <p>Data Science and Analytics focuses on using mathematics, statistics, programming, and domain knowledge to make sense of data. Students learn how to collect, clean, analyze, model, and communicate insights from data.</p>
+      <p>This programme may suit students who enjoy mathematics, coding, patterns, problem-solving, and using evidence to make better decisions.</p>
+
+      <h3>What students typically study</h3>
+      <ul>
+        <li>Statistics</li>
+        <li>Probability</li>
+        <li>Linear algebra</li>
+        <li>Calculus</li>
+        <li>Programming</li>
+        <li>Data structures</li>
+        <li>Machine learning</li>
+        <li>Data visualization</li>
+        <li>Databases</li>
+        <li>Data mining</li>
+        <li>Analytics projects</li>
+        <li>Domain applications such as business, science, health, or social data</li>
+      </ul>
+      <p><strong>Note:</strong> Exact modules and curriculum structure should be verified on the official programme page.</p>
+
+      <h3>Good fit for students who</h3>
+      <ul>
+        <li>Enjoy mathematics and statistics</li>
+        <li>Like coding or are willing to learn coding</li>
+        <li>Enjoy solving problems using evidence</li>
+        <li>Are curious about patterns in data</li>
+        <li>Like both technical work and communication</li>
+        <li>Are interested in AI, analytics, research, finance, business, health, or public policy applications</li>
+      </ul>
+
+      <h3>Less suitable for students who</h3>
+      <ul>
+        <li>Strongly dislike mathematics</li>
+        <li>Strongly dislike programming</li>
+        <li>Prefer purely essay-based or discussion-based learning</li>
+        <li>Want a course with minimal technical workload</li>
+        <li>Are not comfortable dealing with ambiguity and messy data</li>
+      </ul>
+
+      <h3>Academic readiness signals</h3>
+      <ul>
+        <li>Strong mathematics background</li>
+        <li>Comfort with logical thinking</li>
+        <li>Some exposure to coding</li>
+        <li>Interest in statistics or data-driven projects</li>
+        <li>Ability to explain insights clearly</li>
+      </ul>
+      <p><strong>Possible useful school subjects:</strong></p>
+      <ul>
+        <li>A-Level / JC: H2 Mathematics, Computing, Physics, Economics</li>
+        <li>IB: Mathematics HL, Computer Science, Economics, Physics</li>
+        <li>Polytechnic: Data analytics, IT, business analytics, statistics, engineering, applied science</li>
+      </ul>
+      <p><strong>Prerequisite note:</strong> Exact subject requirements should be verified on the official admissions page.</p>
+
+      <h3>Common skill gaps</h3>
+      <ul>
+        <li>Statistics and probability</li>
+        <li>Python or R programming</li>
+        <li>Data cleaning and visualization</li>
+        <li>Linear algebra</li>
+        <li>Explaining technical findings in simple language</li>
+        <li>Building a portfolio of projects</li>
+      </ul>
+
+      <h3>Bridge plan</h3>
+      <p><strong>6–8 week preparation plan:</strong></p>
+      <ul>
+        <li>Weeks 1–2: Learn Python basics</li>
+        <li>Weeks 3–4: Learn pandas, charts, and basic statistics</li>
+        <li>Weeks 5–6: Complete one small data analysis project</li>
+        <li>Weeks 7–8: Write a short project report explaining the question, data, method, findings, and limitations</li>
+      </ul>
+
+      <h3>Try-before-you-choose activities</h3>
+      <ul>
+        <li>Analyze public transport, weather, sports, finance, or education data.</li>
+        <li>Build a simple dashboard using Excel, Python, Tableau, or Power BI.</li>
+        <li>Compare two machine learning models on a beginner dataset.</li>
+        <li>Use data to answer a real question, such as “What factors affect exam performance?” or “Which neighbourhoods are most affordable?”</li>
+      </ul>
+
+      <h3>Career pathways</h3>
+      <ul>
+        <li>Data analyst</li>
+        <li>Data scientist</li>
+        <li>Machine learning engineer</li>
+        <li>Business analyst</li>
+        <li>Quantitative analyst</li>
+        <li>Research analyst</li>
+        <li>Product analyst</li>
+        <li>AI / analytics consultant</li>
+        <li>Public policy analyst</li>
+        <li>Graduate studies in statistics, AI, computer science, economics, or analytics</li>
+      </ul>
+
+      <h3>Application positioning</h3>
+      <p>A strong applicant story may show curiosity about using data to solve problems, evidence of math or coding readiness, a self-initiated data project, ability to explain insights clearly, and awareness that data science requires both technical skill and responsible interpretation.</p>
+      <p><strong>Useful angles:</strong></p>
+      <ul>
+        <li>“I enjoy turning messy data into useful insight.”</li>
+        <li>“A project taught me how evidence can improve decisions.”</li>
+        <li>“I want to combine technical analysis with real-world impact.”</li>
+      </ul>
+
+      <h3>Backup pathways</h3>
+      <ul>
+        <li><strong>Plan A:</strong> Data Science and Analytics</li>
+        <li><strong>Plan B:</strong> Statistics / Mathematics / Computer Science / Business Analytics</li>
+        <li><strong>Plan C:</strong> Economics, Engineering, or Life Sciences with data-focused electives</li>
+        <li><strong>Plan D:</strong> Any quantitative undergraduate degree → analytics internships → data science master’s</li>
+      </ul>
+    </section>
+
+    <section id="ba">
+      <h2>Programme: Business Analytics</h2>
+      <h3>Official sources</h3>
+      <ul class="source-list">
+        <li>Official programme page: <a href="https://www.comp.nus.edu.sg/programmes/ug/ba/">[official NUS Business Analytics programme URL]</a></li>
+        <li>Official admissions requirements page: <a href="https://www.nus.edu.sg/oam/admissions/singapore-cambridge-gce-a-level/">[official NUS admissions requirements URL]</a></li>
+        <li>Official curriculum / study plan page: <a href="https://www.comp.nus.edu.sg/programmes/ug/ba/curr/">[curriculum URL if available]</a></li>
+        <li>Official scholarships / financial aid page: <a href="https://www.nus.edu.sg/oam/docs/default-source/nus-publications/scholarshipfinancialaid.pdf>[scholarship URL]</a></li>
+        <li>Official programme brochure: <a href="https://www.comp.nus.edu.sg/wp-content/uploads/2025/07/UGBriefing-2025-BAISBZA-Final-DISA.pdf">[brochure URL if available]</a></li>
+      </ul>
+
+      <h3>Quick student-friendly summary</h3>
+      <p>Business Analytics combines data analysis, computing, statistics, and business decision-making. Students learn how to use data and technology to improve business operations, customer experience, strategy, finance, marketing, supply chains, and digital products.</p>
+      <p>This programme may suit students who enjoy both technical analysis and business problem-solving.</p>
+
+      <h3>What students typically study</h3>
+      <ul>
+        <li>Programming</li>
+        <li>Statistics</li>
+        <li>Databases</li>
+        <li>Data visualization</li>
+        <li>Machine learning</li>
+        <li>Business analytics methods</li>
+        <li>Operations analytics</li>
+        <li>Marketing analytics</li>
+        <li>Financial analytics</li>
+        <li>Decision modelling</li>
+        <li>Business communication</li>
+        <li>Analytics projects with real-world business problems</li>
+      </ul>
+      <p><strong>Note:</strong> Exact modules and curriculum structure should be verified on the official programme page.</p>
+
+      <h3>Good fit for students who</h3>
+      <ul>
+        <li>Like both business and technology</li>
+        <li>Enjoy using data to make decisions</li>
+        <li>Are comfortable with numbers and coding</li>
+        <li>Want applied, industry-facing projects</li>
+        <li>Like solving practical problems</li>
+        <li>Are interested in consulting, product, finance, operations, marketing, or tech roles</li>
+      </ul>
+
+      <h3>Less suitable for students who</h3>
+      <ul>
+        <li>Want a purely business course with little coding</li>
+        <li>Strongly dislike mathematics or statistics</li>
+        <li>Prefer theory without applied projects</li>
+        <li>Want very deep computer science theory as the main focus</li>
+        <li>Prefer qualitative business discussions only</li>
+      </ul>
+
+      <h3>Academic readiness signals</h3>
+      <ul>
+        <li>Good mathematics foundation</li>
+        <li>Some coding exposure</li>
+        <li>Interest in business, economics, or entrepreneurship</li>
+        <li>Experience with data projects, case competitions, or business clubs</li>
+        <li>Ability to communicate findings to non-technical audiences</li>
+      </ul>
+      <p><strong>Possible useful school subjects:</strong></p>
+      <ul>
+        <li>A-Level / JC: H2 Mathematics, Economics, Computing</li>
+        <li>IB: Mathematics, Economics, Computer Science, Business Management</li>
+        <li>Polytechnic: Business analytics, IT, data analytics, business, accountancy, engineering</li>
+      </ul>
+      <p><strong>Prerequisite note:</strong> Exact subject requirements should be verified on the official admissions page.</p>
+
+      <h3>Common skill gaps</h3>
+      <ul>
+        <li>Programming</li>
+        <li>Statistics</li>
+        <li>Business case thinking</li>
+        <li>Data visualization</li>
+        <li>Communication of insights</li>
+        <li>Understanding of business functions such as marketing, finance, operations, and strategy</li>
+      </ul>
+
+      <h3>Bridge plan</h3>
+      <p><strong>6–8 week preparation plan:</strong></p>
+      <ul>
+        <li>Weeks 1–2: Learn basic Python or Excel analytics</li>
+        <li>Weeks 3–4: Learn basic statistics and visualization</li>
+        <li>Weeks 5–6: Analyze a business dataset, such as sales, customer, or finance data</li>
+        <li>Weeks 7–8: Create a one-page business recommendation based on the analysis</li>
+      </ul>
+
+      <h3>Try-before-you-choose activities</h3>
+      <ul>
+        <li>Analyze sales data and recommend which product line to focus on.</li>
+        <li>Build a simple customer segmentation dashboard.</li>
+        <li>Compare marketing campaign performance using data.</li>
+        <li>Analyze stock, e-commerce, or operations data and propose a business decision.</li>
+      </ul>
+
+      <h3>Career pathways</h3>
+      <ul>
+        <li>Business analyst</li>
+        <li>Data analyst</li>
+        <li>Product analyst</li>
+        <li>Analytics consultant</li>
+        <li>Operations analyst</li>
+        <li>Marketing analyst</li>
+        <li>Financial analyst</li>
+        <li>Strategy analyst</li>
+        <li>Product manager pathway</li>
+        <li>Digital transformation consultant</li>
+      </ul>
+
+      <h3>Application positioning</h3>
+      <p>A strong applicant story may show interest in both data and business impact, evidence of practical problem-solving, ability to communicate insights clearly, and awareness that business analytics is not just coding, but using data to improve decisions.</p>
+      <p><strong>Useful angles:</strong></p>
+      <ul>
+        <li>“I enjoy using data to solve business problems.”</li>
+        <li>“I want to connect technical analysis with practical decisions.”</li>
+        <li>“A project showed me how analytics can improve strategy or operations.”</li>
+      </ul>
+
+      <h3>Backup pathways</h3>
+      <ul>
+        <li><strong>Plan A:</strong> Business Analytics</li>
+        <li><strong>Plan B:</strong> Data Science and Analytics / Information Systems / Business Administration with analytics electives</li>
+        <li><strong>Plan C:</strong> Economics / Statistics / Computer Science with business-related internships</li>
+        <li><strong>Plan D:</strong> Any quantitative or business undergraduate degree → analytics portfolio → analytics internships</li>
+      </ul>
+    </section>
+
+    <section id="comparison">
+      <h2>Comparison Summary</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Programme</th>
+            <th>Best for students who like</th>
+            <th>Main workload type</th>
+            <th>Good application evidence</th>
+            <th>Possible challenge</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Biomedical Engineering</strong></td>
+            <td>Healthcare, biology, engineering design, medical technology, human impact</td>
+            <td>Engineering math, physics, biology, design projects, lab or technical work</td>
+            <td>Science projects, engineering/design projects, healthcare volunteering, health-tech interest, prototyping</td>
+            <td>Students may underestimate the engineering and physics workload.</td>
+          </tr>
+          <tr>
+            <td><strong>Data Science and Analytics</strong></td>
+            <td>Mathematics, statistics, programming, data patterns, AI and modelling</td>
+            <td>Math-heavy, coding-heavy, analytical projects, technical communication</td>
+            <td>Data projects, coding projects, math competitions, research or analytics tasks</td>
+            <td>Students may underestimate the amount of statistics and programming.</td>
+          </tr>
+          <tr>
+            <td><strong>Business Analytics</strong></td>
+            <td>Business decisions, data analysis, technology, consulting-style problem-solving, applied industry projects</td>
+            <td>Coding, statistics, business cases, communication, applied analytics projects</td>
+            <td>Case competitions, business projects, entrepreneurship, data dashboards, internships</td>
+            <td>Students may assume it is mainly business, when it also requires technical analytics.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Quick matching rules</h3>
+      <ul>
+        <li>If a student likes <strong>biology + design + healthcare impact</strong>, consider Biomedical Engineering, but check comfort with math and physics.</li>
+        <li>If a student likes <strong>coding + statistics + modelling</strong>, consider Data Science and Analytics.</li>
+        <li>If a student likes <strong>data + business decisions + consulting-style work</strong>, consider Business Analytics.</li>
+        <li>If a student wants tech but also wants business exposure, compare Business Analytics, Information Systems, Business Administration with analytics electives, and Data Science with business internships.</li>
+      </ul>
+    </section>
+
+
+    <section id="learning-resources">
+      <h2>Beginner Learning Resources</h2>
+      <p><strong>Purpose:</strong> This section gives the Uni Pathway Coach specific resources to recommend when students need to test Data Science, coding, analytics, or Biomedical Engineering before deciding.</p>
+      <div class="info">
+        These resources are for exploration and skill-building. They do not replace official university admissions requirements. Students should use them to test interest, build confidence, and create small portfolio evidence.
+      </div>
+
+      <h3>Python / Data Science Exploration</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Resource</th>
+            <th>Best for</th>
+            <th>First action</th>
+            <th>Estimated time</th>
+            <th>Link / exact search phrase</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Kaggle Learn Python</strong></td>
+            <td>Students who want a quick, hands-on test of whether they enjoy coding for data science.</td>
+            <td>Complete the first 3 lessons: Hello Python, Functions, Booleans/Conditionals.</td>
+            <td>2–5 hours</td>
+            <td><a href="https://www.kaggle.com/learn/python">[Kaggle Learn Python URL]</a><br>Search phrase: <strong>Kaggle Learn Python</strong></td>
+          </tr>
+          <tr>
+            <td><strong>IBM Python for Data Science, AI &amp; Development</strong></td>
+            <td>Beginners who want Python specifically for data science, AI, Jupyter Notebooks, NumPy, and Pandas.</td>
+            <td>Start Module 1 / Python Basics, then complete the first notebook lab.</td>
+            <td>About 2 weeks at 10 hours/week</td>
+            <td><a href="https://www.coursera.org/learn/python-for-applied-data-science-ai">[IBM Python for Data Science, AI &amp; Development URL]</a><br>Search phrase: <strong>IBM Python for Data Science AI Development Coursera</strong></td>
+          </tr>
+          <tr>
+            <td><strong>Harvard CS50P</strong></td>
+            <td>Students who want a stronger and more rigorous Python foundation.</td>
+            <td>Watch Week 0 / Functions and Variables, then attempt the first problem set.</td>
+            <td>3–9 hours per week</td>
+            <td><a href="https://pll.harvard.edu/course/cs50s-introduction-programming-python">[Harvard CS50P URL]</a><br>Search phrase: <strong>Harvard CS50P Python</strong></td>
+          </tr>
+          <tr>
+            <td><strong>Kaggle Learn Pandas</strong></td>
+            <td>Students who finish Python basics and want to try real data cleaning and analysis.</td>
+            <td>Complete the first lesson on creating, reading, and writing data.</td>
+            <td>3–5 hours</td>
+            <td><a href="https://www.kaggle.com/learn/pandas">[Kaggle Learn Pandas URL]</a><br>Search phrase: <strong>Kaggle Learn Pandas</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Mini Projects for Data Science / Business Analytics</h3>
+      <ul>
+        <li><strong>Dataset exploration:</strong> Choose one simple dataset, clean it, make 2–3 charts, and write 5 findings.</li>
+        <li><strong>Business dashboard:</strong> Use Excel, Power BI, Tableau, or Python to analyze sales/customer data and recommend one action.</li>
+        <li><strong>Healthcare data angle:</strong> Analyze a public health, fitness, or wearable-sensor dataset to test interest in healthcare analytics.</li>
+      </ul>
+
+      <h3>Biomedical Engineering / Health-Tech Exploration</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Resource / activity</th>
+            <th>Best for</th>
+            <th>First action</th>
+            <th>Estimated time</th>
+            <th>Link / exact search phrase</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>How MRI works</strong></td>
+            <td>Students testing whether medical imaging and physics-based healthcare technology interests them.</td>
+            <td>Watch/read one beginner explanation, then write how physics is used in MRI.</td>
+            <td>1–2 hours</td>
+            <td><a href="https://www.nibib.nih.gov/science-education/science-topics/magnetic-resonance-imaging-mri">[MRI explainer URL]</a><br>Search phrase: <strong>How MRI works beginner explanation</strong></td>
+          </tr>
+          <tr>
+            <td><strong>Prosthetics / assistive device exploration</strong></td>
+            <td>Students interested in design, mechanics, rehabilitation, and human impact.</td>
+            <td>Research one prosthetic or assistive device and sketch how it solves a user problem.</td>
+            <td>2–3 hours</td>
+            <td><a href="https://www.sciencedirect.com/topics/medicine-and-dentistry/prosthetics">[prosthetics / assistive device URL]</a><br>Search phrase: <strong>prosthetics engineering beginner</strong></td>
+          </tr>
+          <tr>
+            <td><strong>Arduino / sensor mini-project</strong></td>
+            <td>Students who want hands-on exposure to biomedical-style signals and sensors.</td>
+            <td>Build or simulate a simple heart-rate, temperature, or motion-sensor project.</td>
+            <td>1 weekend</td>
+            <td><a href="https://www.etechnophiles.com/beginner-arduino-sensor-projects/">[Arduino sensor project URL]</a><br>Search phrase: <strong>Arduino sensor project beginner</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>How the Agent Should Recommend These Resources</h3>
+      <ul>
+        <li>If a student is testing <strong>Data Science and Analytics</strong>, recommend Kaggle Learn Python first, then IBM Python for Data Science, AI &amp; Development or Harvard CS50P depending on confidence level.</li>
+        <li>If a student is testing <strong>Business Analytics</strong>, recommend Kaggle Learn Python plus a small dashboard or business dataset project.</li>
+        <li>If a student is testing <strong>Biomedical Engineering</strong>, recommend one medical-device exploration task plus one physics/design reflection.</li>
+        <li>If a student has only 1 week, recommend one quick coding task and one biomedical exploration task, then ask which felt more engaging.</li>
+      </ul>
+    </section>
+
+    <section id="application">
+      <h2>Application Guidance Notes for the Agent</h2>
+      <div class="info">
+        For official application short responses, the agent should provide structure, reflection questions, and quality checks only. The agent should not generate submission-ready answers or fabricate achievements.
+      </div>
+      <h3>How the Uni Pathway Coach should use this knowledge</h3>
+      <ol>
+        <li>Ask for relevant student profile details before recommending.</li>
+        <li>Match subjects, interests, achievements, and constraints to programme fit.</li>
+        <li>Explain trade-offs clearly.</li>
+        <li>Avoid guaranteeing admissions.</li>
+        <li>Use this knowledge hub for general programme guidance.</li>
+        <li>Direct students to official NUS sources for final verification.</li>
+        <li>State “Last checked: [insert date]” when referencing changeable details.</li>
+        <li>If information is missing, say what should be verified and where.</li>
+        <li>For application short responses, provide structure and reflection prompts only, not submission-ready answers.</li>
+        <li>Always respect academic integrity.</li>
+      </ol>
+
+      <h3>Suggested agent response logic</h3>
+      <div class="grid">
+        <div class="box">
+          <h4>Student likes biology and design</h4>
+          <p>Consider Biomedical Engineering, but check whether the student is comfortable with mathematics and physics. Explain that Biomedical Engineering is not just biology; it involves engineering design and quantitative work.</p>
+        </div>
+        <div class="box">
+          <h4>Student likes coding and data but not business</h4>
+          <p>Consider Data Science and Analytics before Business Analytics, because Data Science is usually more focused on statistics, computing, and modelling.</p>
+        </div>
+        <div class="box">
+          <h4>Student wants tech and consulting/business</h4>
+          <p>Consider Business Analytics, Information Systems, Business Administration with analytics, or Data Science with business-related internships.</p>
+        </div>
+      </div>
+      <h3>If student has a mismatch</h3>
+      <p>If a student wants Biomedical Engineering but is weak in Math, the agent should not discourage the student harshly. It should explain that mathematics is important and suggest a bridge plan, such as revising algebra, calculus, vectors, and physics basics. It should also suggest adjacent pathways such as Life Sciences with health-tech exposure, Industrial Design with medical product focus, or Data Science with healthcare projects.</p>
+    </section>
+
+    <section id="update-log">
+      <h2>Update Log</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Date updated</th>
+            <th>Updated by</th>
+            <th>Changes made</th>
+            <th>Sources checked</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="placeholder">13 June 2026</span></td>
+            <td><span class="placeholder">Lim Wei Tao</span></td>
+            <td>Created initial knowledge hub.</td>
+            <td>
+  <strong>General NUS:</strong>
+  <ul>
+    <li>https://www.nus.edu.sg/oam/undergraduate-programmes</li>
+    <li>https://www.nus.edu.sg/oam/scholarships</li>
+    <li>https://www.nus.edu.sg/oam/financial-aid</li>
+  </ul>
+
+  <strong>Biomedical Engineering:</strong>
+  <ul>
+    <li>https://cde.nus.edu.sg/bme/undergraduate/what-is-bme/</li>
+    <li>https://cde.nus.edu.sg/bme/wp-content/uploads/sites/8/2019/02/Biomedical_indiv.pdf</li>
+  </ul>
+
+  <strong>Data Science and Analytics:</strong>
+  <ul>
+    <li>https://www.stat.nus.edu.sg/education/undergraduate/prospective-student/major-in-data-science-analytics/</li>
+    <li>https://www.stat.nus.edu.sg/wp-content/uploads/sites/8/2023/05/22052023_CHS-DSA-Brochure.pdf</li>
+  </ul>
+
+  <strong>Business Analytics:</strong>
+  <ul>
+    <li>https://www.comp.nus.edu.sg/programmes/ug/ba/</li>
+    <li>https://www.comp.nus.edu.sg/wp-content/uploads/2025/07/UGBriefing-2025-BAISBZA-Final-DISA.pdf</li>
+  </ul>
+</td>
+          </tr>
+          <tr>
+            <td><span class="placeholder">13 June 2026</span></td>
+            <td><span class="placeholder">[Your name]</span></td>
+            <td>Updated programme details.</td>
+            <td><span class="placeholder">[Paste official URLs]</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    Uni Pathway Coach Knowledge Hub. Guidance summary only. Always verify admissions, fees, scholarships, deadlines, and curriculum details on official university sources.
+  </footer>
+</body>
+</html>
