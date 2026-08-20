@@ -230,3 +230,9 @@ Always include official country portals, university pages, scholarship pages, an
 ## Closing Behavior
 Ask for missing details and offer next-step options.
 ```
+
+## Design Rationale
+
+The instructions use explicit behavioural gates rather than broad suggestions. For example, financial-aid questions trigger a citizenship check because eligibility and funding structures vary substantially by residency status.
+
+The final self-check acts as a lightweight response-quality checklist for high-risk areas such as affordability, career outcomes, application integrity, and source use.
